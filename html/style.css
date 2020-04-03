@@ -1,0 +1,51 @@
+div {
+  background: rgb(255, 255, 255); /* Цвет фона */
+  color: rgb(0, 0, 0); /* Цвет текста */
+  padding: 10px; /* Поля вокруг текста */
+  border-radius: 10px; /* Уголки */
+  width: 1100px;
+  font-family: futurademic, monospace;
+}
+
+h3 {
+  font-family: futurademic, monospace;
+  color: rgba(105, 86, 189, 0.89);
+}
+
+A:link {
+  color: rgb(255, 255, 255);
+}
+A:visited {
+  color: rgb(255, 255, 255);
+}
+A:hover {
+  color: rgba(145, 214, 75, 0.89);
+}
+
+.left {
+  background: #34495e; /* Цвет фона */
+  color: rgb(0, 0, 0); /* Цвет текста */
+  padding: 10px; /* Поля вокруг текста */
+  border-radius: 10px; /* Уголки */
+  width: 90%;
+  font-family: futurademic, monospace;
+}
+
+.subblock {
+  background-color: rgb(69, 96, 122);
+  margin-top: 10px;
+}
+.top {
+  background: #34495e; /* Цвет фона */
+  color: rgb(0, 0, 0); /* Цвет текста */
+  padding: 0px; /* Поля вокруг текста */
+  border-radius: 10px; /* Уголки */
+  width: 100%;
+  font-family: futurademic, monospace;
+}
+
+
+h2.top {
+  text-align: center;
+  color: white;
+}
