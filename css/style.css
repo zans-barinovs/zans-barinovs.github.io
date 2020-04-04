@@ -1,7 +1,9 @@
 @font-face {
   font-family: FuturaDemiC; /* Гарнитура шрифта */
   src: local(FuturaDemiC), url(futurademic.otf); /* Для остальных браузеров */
- }
+  src: local(FuturaDemiC), url(futurademic.svg); /* Для остальных браузеров */
+  src: local(FuturaDemiC), url(futurademic.eot); /* Для остальных браузеров */
+}
 
 body {
   font-family: FuturaDemiC;
