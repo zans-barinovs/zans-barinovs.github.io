@@ -1,7 +1,7 @@
 @font-face {
   font-family: FuturaDemiC; /* Гарнитура шрифта */
-  src: local(FuturaDemiC), url(futurademic.otf), url(futurademic.svg),
-    url(futurademic.eot);
+  src: local(FuturaDemiC), url(../fonts/futurademic.otf), url(../fonts/futurademic.svg),
+    url(../fonts/futurademic.eot);
 }
 
 body {
