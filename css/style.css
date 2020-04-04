@@ -1,8 +1,7 @@
 @font-face {
   font-family: FuturaDemiC; /* Гарнитура шрифта */
-  src: local(FuturaDemiC), url(futurademic.otf); /* Для остальных браузеров */
-  src: local(FuturaDemiC), url(futurademic.svg); /* Для остальных браузеров */
-  src: local(FuturaDemiC), url(futurademic.eot); /* Для остальных браузеров */
+  src: local(FuturaDemiC), url(futurademic.otf), url(futurademic.svg),
+    url(futurademic.eot);
 }
 
 body {
@@ -15,11 +14,9 @@ div {
   padding: 10px; /* Поля вокруг текста */
   border-radius: 10px; /* Уголки */
   width: 1100px;
-  
 }
 
 h3 {
-  
   color: rgba(105, 86, 189, 0.89);
 }
 
@@ -39,7 +36,6 @@ A:hover {
   padding: 10px; /* Поля вокруг текста */
   border-radius: 10px; /* Уголки */
   width: 90%;
-  
 }
 
 .subblock {
