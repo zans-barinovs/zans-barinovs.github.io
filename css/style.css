@@ -44,8 +44,11 @@ A:hover {
   font-family: futurademic, monospace;
 }
 
-
 h2.top {
   text-align: center;
   color: white;
+}
+.grey {
+  background-color: gainsboro;
+  width: 98%;
 }
