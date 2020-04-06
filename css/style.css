@@ -31,6 +31,7 @@ h3 {
 h2.top {
   text-align: center;
   color: white;
+  margin-top: 0p;
 }
 
 A:link {
@@ -49,6 +50,8 @@ A:hover {
   padding: 10px; /* Поля вокруг текста */
   border-radius: 10px; /* Уголки */
   width: 90%;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .subblock {
@@ -57,12 +60,12 @@ A:hover {
 }
 .top {
   background: #34495e; /* Цвет фона */
-  color: rgb(0, 0, 0); /* Цвет текста */
+  color: rgb(255, 255, 255); /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
   border-radius: 10px; /* Уголки */
   width: 100%;
   margin-top: 0px;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 }
 
 .grey {
@@ -71,4 +74,20 @@ A:hover {
 }
 img {
   border-radius: 10px;
+}
+img:hover {
+  opacity: 80%;
+}
+.open {
+  background: rgb(255, 255, 255); /* Цвет фона */
+  color: rgb(0, 0, 0); /* Цвет текста */
+  padding: 10px; /* Поля вокруг текста */
+  border-radius: 10px; /* Уголки */
+  width: 1000px;
+  height: 100%;
+  margin-bottom: 0px;
+  margin-left: 0px;
+}
+.big {
+  height: 500px;
 }
