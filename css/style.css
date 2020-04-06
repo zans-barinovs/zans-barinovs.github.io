@@ -75,9 +75,7 @@ A:hover {
 img {
   border-radius: 10px;
 }
-img:hover {
-  opacity: 80%;
-}
+
 .open {
   background: rgb(255, 255, 255); /* Цвет фона */
   color: rgb(0, 0, 0); /* Цвет текста */
@@ -91,3 +89,9 @@ img:hover {
 .big {
   height: 500px;
 }
+.scale {
+  transition: 0.4s; /* Время эффекта */
+ }
+ .scale:hover {
+  transform: scale(1.4); /* Увеличиваем масштаб */
+ }
