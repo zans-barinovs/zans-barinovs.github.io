@@ -93,5 +93,9 @@ img {
   transition: 0.4s; /* Время эффекта */
  }
  .scale:hover {
-  transform: scale(1.4); /* Увеличиваем масштаб */
+  transform: scale(1.2); /* Увеличиваем масштаб */
+ }
+ video {
+   height: 200px;
+   border-radius: 10px;
  }
