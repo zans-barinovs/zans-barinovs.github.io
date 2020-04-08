@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  padding: 0px;
+}
+.first {
+  background-image: url("../photos/photos02/01.png"); /*фоновая картинка*/
+  background-size: cover;
+  background-color: rgb(0, 0, 0);
+  color: white; /* Цвет текста */
+  padding: 0px; /* Поля вокруг текста */
+  border-radius: 0px; /* Уголки */
+  height: auto;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.div01 {
+  background-color: rgb(24, 24, 24);
+  color: white; /* Цвет текста */
+  padding: 0px; /* Поля вокруг текста */
+  border-radius: 0px; /* Уголки */
+  height: 300px;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  align-items: center;
+}
+.div02 {
+  background-color: rgb(31, 31, 31);
+  color: white; /* Цвет текста */
+  padding: 0px; /* Поля вокруг текста */
+  border-radius: 0px; /* Уголки */
+  height: 300px;
+  width: 100%;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  align-items: center;
+}
+.top01 {
+  height: 40px;
+}
+.top02 {
+  background-color: rgb(31, 31, 31);
+  color: white; /* Цвет текста */
+  padding: 0px; /* Поля вокруг текста */
+  border-radius: 10px; /* Уголки */
+  width: 100px;
+}
+.top03 {
+    height: 10em;
+   position: relative 
+}
+h2{
+    color: white;
+}
