@@ -8,9 +8,8 @@ body {
   padding: 0px;
 }
 .first {
-  background-image: url("../photos/photos02/01.png"); /*фоновая картинка*/
+  background-image: url("../photos/photos02/full/me_ciberpunk_seated_green.jpg"); /*фоновая картинка*/
   background-size: cover;
-  background-color: rgb(0, 0, 0);
   color: white; /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
   border-radius: 0px; /* Уголки */
