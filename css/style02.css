@@ -7,7 +7,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  background-color: black;
+  background-color: rgb(24, 24, 24);
   font-family: FuturaDemiC;
 }
 
@@ -25,6 +25,11 @@ body {
   height: 100vh; /*непонятная строка с сайта дизайнера*/
   background-position-y: center;
   background-position-x: center;
+}
+.first_text {
+  margin-right: 10px;
+  width: 30%;
+  float:right;
 }
 .div01 {
   background-color: rgb(24, 24, 24);
@@ -74,6 +79,10 @@ body {
   height: auto;
   overflow: hidden;
   margin-top: 5px;
+  display: flex; /* establish flex container */
+  justify-content: center; /* center flex items horizontally, in this case */
+  align-items: center; /* center flex items vertically, in this case */
+   
 }
 h2 {
   color: white;
@@ -81,6 +90,9 @@ h2 {
   margin-bottom: 2px;
   margin-right: 5px;
   margin-left: 5px;
+}
+h3 {
+  color: rgba(145, 214, 75, 0.89);
 }
 ::-webkit-scrollbar {
   /* width */
