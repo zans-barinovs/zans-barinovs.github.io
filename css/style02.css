@@ -1,12 +1,16 @@
-html,
+@font-face {
+  font-family: FuturaDemiC; /* Гарнитура шрифта */
+  src: local(FuturaDemiC), url(../fonts/futurademic.otf),
+    url(../fonts/futurademic.svg), url(../fonts/futurademic.eot);
+}
+
 body {
   padding: 0px;
   margin: 0px;
-}
-body {
   background-color: black;
-  padding: 0px;
+  font-family: FuturaDemiC;
 }
+
 .first {
   background-image: url("../photos/photos02/full/me_ciberpunk_seated_green.jpg"); /*фоновая картинка*/
   background-size: cover;
@@ -18,10 +22,9 @@ body {
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  height:100vh; /*непонятная строка с сайта дизайнера*/
+  height: 100vh; /*непонятная строка с сайта дизайнера*/
   background-position-y: center;
   background-position-x: center;
-
 }
 .div01 {
   background-color: rgb(24, 24, 24);
@@ -52,7 +55,6 @@ body {
 .top01 {
   height: 40px;
   float: left;
-  
 }
 .top02 {
   background-color: rgb(31, 31, 31);
@@ -71,7 +73,7 @@ body {
   max-width: 100%;
   height: auto;
   overflow: hidden;
-  margin-top: 5px ;
+  margin-top: 5px;
 }
 h2 {
   color: white;
@@ -79,4 +81,16 @@ h2 {
   margin-bottom: 2px;
   margin-right: 5px;
   margin-left: 5px;
+}
+::-webkit-scrollbar {
+  /* width */
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  /* Track */
+  background: rgb(31, 31, 31);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(145, 214, 75, 0.89);
+  border-radius: 10px;
 }
