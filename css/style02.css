@@ -1,3 +1,8 @@
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
 body {
   background-color: black;
   padding: 0px;
@@ -9,12 +14,12 @@ body {
   color: white; /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
   border-radius: 0px; /* Уголки */
-  height: auto;
   width: 100%;
   margin-bottom: 0px;
   margin-top: 0px;
   margin-left: 0px;
   margin-right: 0px;
+  height:100vh; /*непонятная строка с сайта дизайнера*/
 }
 .div01 {
   background-color: rgb(24, 24, 24);
@@ -44,18 +49,32 @@ body {
 }
 .top01 {
   height: 40px;
+  float: left;
+  
 }
 .top02 {
   background-color: rgb(31, 31, 31);
   color: white; /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
   border-radius: 10px; /* Уголки */
-  width: 100px;
+  float: left;
+  margin-right: 10px;
+  height: auto;
+  margin-top: 5px;
 }
 .top03 {
-    height: 10em;
-   position: relative 
+  height: 10em;
+  position: relative;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+  margin-top: 5px ;
 }
-h2{
-    color: white;
+h2 {
+  color: white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
 }
