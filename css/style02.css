@@ -20,6 +20,9 @@ body {
   margin-left: 0px;
   margin-right: 0px;
   height:100vh; /*непонятная строка с сайта дизайнера*/
+  background-position-y: center;
+  background-position-x: center;
+
 }
 .div01 {
   background-color: rgb(24, 24, 24);
