@@ -1,16 +1,23 @@
+A:link {
+  color: rgb(255, 255, 255);
+}
+A:visited {
+  color: rgb(255, 255, 255);
+}
+A:hover {
+  color: rgba(145, 214, 75, 0.89);
+}
 @font-face {
   font-family: FuturaDemiC; /* Гарнитура шрифта */
   src: local(FuturaDemiC), url(../fonts/futurademic.otf),
     url(../fonts/futurademic.svg), url(../fonts/futurademic.eot);
 }
-
 body {
   padding: 0px;
   margin: 0px;
   background-color: rgb(24, 24, 24);
   font-family: FuturaDemiC;
 }
-
 .first {
   background-image: url("../photos/photos02/full/me_ciberpunk_seated_green.jpg"); /*фоновая картинка*/
   background-size: cover;
@@ -29,14 +36,13 @@ body {
 .first_text {
   margin-right: 10px;
   width: 30%;
-  float:right;
+  float: right;
 }
 .div01 {
   background-color: rgb(24, 24, 24);
   color: white; /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
   border-radius: 0px; /* Уголки */
-  height: 300px;
   width: 100%;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -49,7 +55,6 @@ body {
   color: white; /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
   border-radius: 0px; /* Уголки */
-  height: 300px;
   width: 100%;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -57,12 +62,22 @@ body {
   margin-right: 0px;
   align-items: center;
 }
+.div03 {
+  float: left;
+  width: 50%;
+  margin: 50px;
+}
+.pointer {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+}
 .top01 {
   height: 40px;
   float: left;
 }
 .top02 {
-  background-color: rgb(31, 31, 31);
+  background-color: rgb(24, 24, 24);
   color: white; /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
   border-radius: 10px; /* Уголки */
@@ -71,7 +86,7 @@ body {
   height: auto;
   margin-top: 5px;
 }
-.top03 {
+.center {
   height: 10em;
   position: relative;
   display: inline-block;
@@ -82,7 +97,6 @@ body {
   display: flex; /* establish flex container */
   justify-content: center; /* center flex items horizontally, in this case */
   align-items: center; /* center flex items vertically, in this case */
-   
 }
 h2 {
   color: white;
@@ -91,8 +105,14 @@ h2 {
   margin-right: 5px;
   margin-left: 5px;
 }
-h3 {
+h1 {
   color: rgba(145, 214, 75, 0.89);
+}
+.purple {
+  color: blueviolet;
+}
+.text {
+  width: 25%;
 }
 ::-webkit-scrollbar {
   /* width */
@@ -105,4 +125,15 @@ h3 {
 ::-webkit-scrollbar-thumb {
   background: rgba(145, 214, 75, 0.89);
   border-radius: 10px;
+}
+.small {
+  height: 200px;
+  /* float: left; */
+  margin: 5px;
+}
+.scale {
+  transition: 0.4s; /* Время эффекта */
+}
+.scale:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
 }

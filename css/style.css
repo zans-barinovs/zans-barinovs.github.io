@@ -91,11 +91,11 @@ img {
 }
 .scale {
   transition: 0.4s; /* Время эффекта */
- }
- .scale:hover {
+}
+.scale:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
- }
- video {
-   height: 200px;
-   border-radius: 10px;
- }
+}
+video {
+  height: 200px;
+  border-radius: 10px;
+}
