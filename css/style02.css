@@ -15,6 +15,9 @@ a {
   src: local(FuturaDemiC), url(../fonts/futurademic.otf),
     url(../fonts/futurademic.svg), url(../fonts/futurademic.eot);
 }
+html {
+  scroll-behavior: smooth;
+}
 body {
   padding: 0px;
   margin: 0px;
@@ -75,6 +78,20 @@ body {
   top: 90%;
   left: 50%;
 }
+.div04 {
+  background-color: blueviolet;
+  color: rgb(0, 0, 0); /* Цвет текста */
+  padding: 10px; /* Поля вокруг текста */
+  border-radius: 0px; /* Уголки */
+  margin: 5px;
+}
+.div04:hover {
+  background-color: rgba(145, 214, 75, 0.89);
+  color: rgb(0, 0, 0); /* Цвет текста */
+  padding: 10px; /* Поля вокруг текста */
+  border-radius: 0px; /* Уголки */
+  margin: 5px;
+}
 .top01 {
   height: 40px;
   float: left;
@@ -110,6 +127,13 @@ h2 {
 }
 h2:hover {
   color: rgba(145, 214, 75, 0.89);
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+h2.normal {
+  color: white;
   margin-top: 2px;
   margin-bottom: 2px;
   margin-right: 5px;
@@ -183,12 +207,23 @@ h1 {
   height: 100%;
   vertical-align: middle;
 }
-
-.inner {
-  display: inline-block;
-  vertical-align: middle;
-}
 /* добавим горизонтальное центрирование */
 .outer {
   text-align: center;
+}
+
+main div {
+  background: black;
+  color: white;
+  padding: 15px;
+  max-width: 125px;
+  margin: 5px;
+}
+
+.inline-block-center {
+  text-align: center;
+}
+.inline-block-center div {
+  display: inline-block;
+  text-align: left;
 }
