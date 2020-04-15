@@ -170,8 +170,9 @@ h1 {
   transform: scale(1.2); /* Увеличиваем масштаб */
 }
 .imgbig {
-  max-width: 90%;
-  max-height: 90%;
+  max-width: 99%;
+  max-height: 99%;
+  /* margin: auto; */
 }
 /* скрываем чекбоксы и блоки с содержанием */
 .hide,
@@ -239,25 +240,28 @@ main div {
   bottom: 0;
   left: 0;
   z-index: 0;
-  background: rgba(0,0,0,0.7);
+  background: rgba(137, 43, 226, 0.5);
   pointer-events: none;
 }
 .Modal:target {
   display: flex;
   pointer-events: auto;
-} 
+}
 .Modal_Body {
   position: relative;
   z-index: 2;
   display: block;
   margin: auto;
-  padding: 15px;
+  padding: 10px;
   background: rgb(24, 24, 24);
+  width: 90%;
+  height: 90%;
 }
 .ModalFull {
-position: absolute;
-display: block;
-z-index: 0;
-width: 100%;
-height: 100%;
+  position: absolute;
+  display: block;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+  margin: 10px;
 }
