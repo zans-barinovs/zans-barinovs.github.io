@@ -48,7 +48,7 @@ body {
   background-color: rgb(24, 24, 24);
   color: white; /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
-  border-radius: 0px; /* Уголки */
+  border-radius: 5px; /* Уголки */
   width: 100%;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -60,7 +60,7 @@ body {
   background-color: rgb(31, 31, 31);
   color: white; /* Цвет текста */
   padding: 0px; /* Поля вокруг текста */
-  border-radius: 0px; /* Уголки */
+  border-radius: 5px; /* Уголки */
   width: 100%;
   margin-bottom: 0px;
   margin-top: 0px;
@@ -81,17 +81,22 @@ body {
 .div04 {
   background-color: blueviolet;
   color: rgb(0, 0, 0); /* Цвет текста */
-  padding: 10px; /* Поля вокруг текста */
+  padding: 0px; /* Поля вокруг текста */
   border-radius: 0px; /* Уголки */
   margin: 5px;
+}
+.div04text {
+  padding: 10px;
+  background-color: transparent;
 }
 .div04:hover {
   background-color: rgba(145, 214, 75, 0.89);
   color: rgb(0, 0, 0); /* Цвет текста */
-  padding: 10px; /* Поля вокруг текста */
+  padding: 0px; /* Поля вокруг текста */
   border-radius: 0px; /* Уголки */
   margin: 5px;
 }
+
 .top01 {
   height: 40px;
   float: left;
@@ -169,10 +174,14 @@ h1 {
 .scale:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
 }
+img {
+  border-radius: 0px;
+}
 .imgbig {
   max-width: 99%;
   max-height: 99%;
   /* margin: auto; */
+  border-radius: 5px;
 }
 /* скрываем чекбоксы и блоки с содержанием */
 .hide,
@@ -216,7 +225,6 @@ h1 {
 .outer {
   text-align: center;
 }
-
 main div {
   background: black;
   color: white;
@@ -224,7 +232,6 @@ main div {
   max-width: 125px;
   margin: 5px;
 }
-
 .inline-block-center {
   text-align: center;
 }
@@ -265,3 +272,23 @@ main div {
   height: 100%;
   margin: 10px;
 }
+.input01 {
+  background-color: blueviolet;
+  color: white;
+  border-width: 0px;
+  border-radius: 5px;
+  padding: 5px;
+  outline: none;
+}
+.dropdown {
+  padding: 5px;
+  border-width: 0px;
+  color: white;
+  background: blueviolet;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+/* .feedback_align_left {
+  text
+} */
