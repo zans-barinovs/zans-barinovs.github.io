@@ -165,9 +165,8 @@ h1 {
   border-radius: 10px;
 }
 .scale {
-  transition: 0.4s; /* Время эффекта */
+  transition: 0.4s;
   height: 300px;
-  /* float: left; */
   margin: 5px;
 }
 .scale:hover {
