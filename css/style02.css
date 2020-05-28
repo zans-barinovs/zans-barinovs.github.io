@@ -96,7 +96,6 @@ body {
   border-radius: 0px; /* Уголки */
   margin: 5px;
 }
-
 .top01 {
   height: 40px;
   float: left;
@@ -167,7 +166,7 @@ h1 {
 }
 .scale {
   transition: 0.4s; /* Время эффекта */
-  height: 200px;
+  height: 300px;
   /* float: left; */
   margin: 5px;
 }
@@ -181,14 +180,12 @@ img {
   max-width: 99%;
   max-height: 99%;
   /* margin: auto; */
-  border-radius: 5px;
+  border-radius: 0px;
 }
-/* скрываем чекбоксы и блоки с содержанием */
 .hide,
 .hide + label ~ div {
   display: none;
 }
-/* вид текста label */
 .hide + label,
 .hide:checked + label {
   padding: 0;
@@ -196,12 +193,10 @@ img {
   cursor: pointer;
   border-bottom: 1px dotted green;
 }
-/* вид текста label при активном переключателе */
 .hide:checked + label {
   color: red;
   border-bottom: 0;
 }
-/* когда чекбокс активен показываем блоки с содержанием  */
 .hide:checked + label + div {
   display: block;
   background-color: rgb(24, 24, 24);
@@ -221,7 +216,6 @@ img {
   height: 100%;
   vertical-align: middle;
 }
-/* добавим горизонтальное центрирование */
 .outer {
   text-align: center;
 }
@@ -276,7 +270,7 @@ main div {
   background-color: blueviolet;
   color: white;
   border-width: 0px;
-  border-radius: 5px;
+  border-radius: 0px;
   padding: 5px;
   outline: none;
 }
@@ -285,10 +279,8 @@ main div {
   border-width: 0px;
   color: white;
   background: blueviolet;
-  border-radius: 5px;
+  border-radius: 0px;
   cursor: pointer;
   outline: none;
 }
-/* .feedback_align_left {
-  text
-} */
+
