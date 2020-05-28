@@ -282,4 +282,15 @@ main div {
   cursor: pointer;
   outline: none;
 }
-
+iframe {
+  height: 300px;
+  width: 533px;
+  border-width: 0px;
+  border-radius: 0px;
+}
+.iframelandscape {
+  /* height: 300px;
+  width: 533px; */
+  border-width: 0px;
+  border-radius: 0px;
+}
