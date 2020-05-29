@@ -85,6 +85,9 @@ body {
   border-radius: 0px; /* Уголки */
   margin: 5px;
 }
+.padding {
+  padding: 50px;
+}
 .div04text {
   padding: 10px;
   background-color: transparent;
