@@ -68,6 +68,7 @@ body {
   margin-right: 0px;
   align-items: center;
 }
+
 .div03 {
   width: 50%;
   margin: 50px;
@@ -136,6 +137,18 @@ img .div04mobile {
   display: flex; /* establish flex container */
   justify-content: center; /* center flex items horizontally, in this case */
   align-items: center; /* center flex items vertically, in this case */
+}
+.div04mobiletext {
+  font-size: 200%;
+
+}
+.h2mobile {
+  color: white;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 300%;
 }
 h2 {
   color: white;
