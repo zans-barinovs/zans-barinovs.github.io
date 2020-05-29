@@ -85,6 +85,18 @@ body {
   border-radius: 0px; /* Уголки */
   margin: 5px;
 }
+.div04mobile {
+  background-color: blueviolet;
+  color: rgb(0, 0, 0); /* Цвет текста */
+  padding: 0px; /* Поля вокруг текста */
+  border-radius: 0px; /* Уголки */
+  margin: 0px;
+  width: 100%;
+}
+img .div04mobile {
+  width: 100%;
+  margin: 0px;
+}
 .padding {
   padding: 50px;
 }
@@ -149,7 +161,14 @@ h2.normal {
 h1 {
   color: rgba(145, 214, 75, 0.89);
 }
+.h1mobile {
+  font-size: 300%;
+}
 .purple {
+  color: blueviolet;
+}
+.purplemobile {
+  font-size: 300%;
   color: blueviolet;
 }
 .text {
