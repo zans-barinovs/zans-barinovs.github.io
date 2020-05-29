@@ -289,8 +289,14 @@ iframe {
   border-radius: 0px;
 }
 .iframelandscape {
-  /* height: 300px;
-  width: 533px; */
+  height: 300px;
+  width: 700px;
+  border-width: 0px;
+  border-radius: 0px;
+}
+.iframe3to4 {
+  height: 300px;
+  width: 400px;
   border-width: 0px;
   border-radius: 0px;
 }
