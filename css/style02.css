@@ -69,9 +69,9 @@ body {
   align-items: center;
 }
 .div03 {
-  float: left;
   width: 50%;
   margin: 50px;
+  text-align: left;
 }
 .pointer {
   position: absolute;
