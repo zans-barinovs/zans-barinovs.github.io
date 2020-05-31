@@ -140,7 +140,6 @@ img .div04mobile {
 }
 .div04mobiletext {
   font-size: 200%;
-
 }
 .h2mobile {
   color: white;
@@ -205,6 +204,14 @@ h1 {
   margin: 5px;
 }
 .scale:hover {
+  transform: scale(1.2); /* Увеличиваем масштаб */
+}
+.scalem {
+  transition: 0.4s;
+  margin: 5px;
+  width: 48%;
+}
+.scalem:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
 }
 img {
@@ -320,6 +327,12 @@ main div {
 iframe {
   height: 300px;
   width: 533px;
+  border-width: 0px;
+  border-radius: 0px;
+}
+.iframemobile {
+  width: auto;
+  height: auto;
   border-width: 0px;
   border-radius: 0px;
 }
