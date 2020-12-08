@@ -47,13 +47,11 @@ body {
 .div01 {
   background-color: rgb(24, 24, 24);
   color: white; /* Цвет текста */
-  padding: 0px; /* Поля вокруг текста */
   border-radius: 5px; /* Уголки */
   width: 100%;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 50px;
   align-items: center;
 }
 .div02 {
@@ -62,13 +60,11 @@ body {
   padding: 0px; /* Поля вокруг текста */
   border-radius: 5px; /* Уголки */
   width: 100%;
-  margin-bottom: 0px;
-  margin-top: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 50px;
   align-items: center;
 }
-
 .div03 {
   width: 50%;
   margin: 50px;
@@ -80,11 +76,13 @@ body {
   left: 50%;
 }
 .div04 {
-  background-color: blueviolet;
-  color: rgb(0, 0, 0); /* Цвет текста */
-  padding: 0px; /* Поля вокруг текста */
-  border-radius: 0px; /* Уголки */
-  margin: 5px;
+  background-color: hsl(0, 0%, 16%);
+  color: hsl(0, 0%, 78%); /* Цвет текста */
+  /* padding: 10px; Поля вокруг текста */
+  border-radius: 10px; /* Уголки */
+  margin: 10px;
+  height: 500px;
+  width: 440px;
 }
 .div04mobile {
   background-color: blueviolet;
@@ -94,23 +92,34 @@ body {
   margin: 0px;
   width: 100%;
 }
+.div04img {
+  width: 400px;
+  height: 225px;
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px;
+}
 img .div04mobile {
   width: 100%;
   margin: 0px;
 }
+.div04text {
+  padding: 10px;
+  margin: 10px;
+  background-color: transparent;
+  width: 400px;
+}
 .padding {
   padding: 50px;
 }
-.div04text {
-  padding: 10px;
-  background-color: transparent;
-}
 .div04:hover {
-  background-color: rgba(145, 214, 75, 0.89);
-  color: rgb(0, 0, 0); /* Цвет текста */
-  padding: 0px; /* Поля вокруг текста */
-  border-radius: 0px; /* Уголки */
-  margin: 5px;
+  background-color: hsla(90, 40%, 20%, 0.89);
+  color: hsl(0, 0%, 78%); /* Цвет текста */
+  /* padding: 10px; Поля вокруг текста */
+  border-radius: 10px; /* Уголки */
+  margin: 10px;
+  height: 500px;
+  width: 440px;
 }
 .top01 {
   height: 40px;
