@@ -78,8 +78,9 @@ body {
 }
 .div03 {
   width: 50%;
+}
+.divmargin {
   margin: 50px;
-  text-align: left;
 }
 .pointer {
   position: absolute;
