@@ -65,6 +65,17 @@ body {
   padding-bottom: 50px;
   align-items: center;
 }
+.divgreen {
+  background-color: rgb(31, 31, 31);
+  color: white; /* Цвет текста */
+  padding: 0px; /* Поля вокруг текста */
+  border-radius: 5px; /* Уголки */
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  padding-bottom: 50px;
+  align-items: center;
+}
 .div03 {
   width: 50%;
   margin: 50px;
@@ -80,7 +91,7 @@ body {
   color: hsl(0, 0%, 78%); /* Цвет текста */
   /* padding: 10px; Поля вокруг текста */
   border-radius: 10px; /* Уголки */
-  margin: 10px;
+  margin: 50px;
   height: 500px;
   width: 440px;
 }
@@ -110,17 +121,36 @@ img .div04mobile {
   width: 400px;
   height: 300px;
 }
-.padding {
-  padding: 50px;
+.div04button {
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: hsla(90, 40%, 40%, 0.89);
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-family: FuturaDemiC;
+}
+.div04button:hover {
+  border-radius: 10px;
+  border-width: 0px;
+  background-color: hsl(90, 63%, 57%);
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-family: FuturaDemiC;
 }
 .div04:hover {
   background-color: hsla(90, 40%, 20%, 0.89);
   color: hsl(0, 0%, 78%); /* Цвет текста */
   /* padding: 10px; Поля вокруг текста */
   border-radius: 10px; /* Уголки */
-  margin: 10px;
+  margin: 50px;
   height: 500px;
   width: 440px;
+}
+.div04mobiletext {
+  font-size: 200%;
+}
+.padding {
+  padding: 50px;
 }
 .top01 {
   height: 40px;
@@ -148,9 +178,7 @@ img .div04mobile {
   justify-content: center; /* center flex items horizontally, in this case */
   align-items: center; /* center flex items vertically, in this case */
 }
-.div04mobiletext {
-  font-size: 200%;
-}
+
 .h2mobile {
   color: white;
   margin-top: 2px;
@@ -212,6 +240,7 @@ h1 {
   transition: 0.4s;
   height: 300px;
   margin: 5px;
+  border-radius: 10px;
 }
 .scale:hover {
   transform: scale(1.2); /* Увеличиваем масштаб */
