@@ -159,6 +159,7 @@ img .div04mobile {
 .div05img {
   height: 40px;
   margin-right: 30px;
+  border-radius: 10px;
 }
 .div05line {
   display: flex;
