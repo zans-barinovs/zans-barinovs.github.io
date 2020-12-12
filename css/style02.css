@@ -72,7 +72,7 @@ body {
 .div02 {
   background-color: hsl(0, 0%, 12%);
   color: white; /* Цвет текста */
-  padding: 0px; /* Поля вокруг текста */
+  padding: 50px; /* Поля вокруг текста */
   border-radius: 5px; /* Уголки */
   width: 100%;
   margin: 0px;
@@ -183,6 +183,17 @@ img .div04mobile {
   align-items: center;
   margin: 10px;
 }
+.horizontalscroll {
+  border-radius: 10px;
+  width: 1000px;
+  padding: 50px;
+  margin: 50px;
+  margin-top: 0px;
+  overflow: auto;
+  white-space: nowrap;
+  /* background-image: url("../photos/photos02/background04.png"); */
+  background-size: 100%;
+}
 .padding {
   padding: 50px;
 }
@@ -261,6 +272,7 @@ h1 {
 ::-webkit-scrollbar {
   /* width */
   width: 5px;
+  height: 5px;
 }
 ::-webkit-scrollbar-track {
   /* Track */
@@ -294,7 +306,7 @@ img {
   max-width: 100%;
   max-height: 100%;
   /* margin: auto; */
-  border-radius: 0px;
+  border-radius: 10px;
 }
 .meimg {
   height: 230px;
